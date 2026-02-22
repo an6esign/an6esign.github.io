@@ -1,0 +1,50 @@
+const standsData = {
+  "stands": [
+
+    /* ===== ЖЁЛТЫЕ СВЕРХУ ===== */
+
+    { "type": "yellow", "position": "top", "order": "first", "x": 39, "y": 41.6, "w": 1.2, "h": 2, "company": "G1", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "yellow", "position": "top", "order": "none", "x": 40.2, "y": 41.6, "w": 1.2, "h": 2, "company": "G2", "logo": "", "description": "", "info": "" },
+    { "type": "yellow", "position": "top", "order": "none", "x": 41.4, "y": 41.6, "w": 1.2, "h": 2, "company": "G3", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "yellow", "position": "top", "order": "none", "x": 42.6, "y": 41.6, "w": 1.2, "h": 2, "company": "G4", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "yellow", "position": "top", "order": "last", "x": 43.8, "y": 41.6, "w": 1.2, "h": 2, "company": "G5", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "yellow", "position": "top", "order": "first", "x": 48.4, "y": 41.6, "w": 1.2, "h": 2, "company": "G6", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "yellow", "position": "top", "order": "none", "x": 49.6, "y": 41.6, "w": 1.2, "h": 2, "company": "G7", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "yellow", "position": "top", "order": "none", "x": 50.8, "y": 41.6, "w": 1.2, "h": 2, "company": "G8", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "yellow", "position": "top", "order": "none", "x": 52, "y": 41.6, "w": 1.2, "h": 2, "company": "G9", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "yellow", "position": "top", "order": "last", "x": 53.2, "y": 41.6, "w": 1.2, "h": 2, "company": "G10", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "yellow", "position": "top", "order": "first", "x": 57.8, "y": 41.6, "w": 1.2, "h": 2, "company": "G11", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "yellow", "position": "top", "order": "none", "x": 58.95, "y": 41.6, "w": 1.2, "h": 2, "company": "G12", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "yellow", "position": "top", "order": "none", "x": 60.15, "y": 41.6, "w": 1.2, "h": 2, "company": "G13", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "yellow", "position": "top", "order": "none", "x": 61.35, "y": 41.6, "w": 1.2, "h": 2, "company": "G14", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "yellow", "position": "top", "order": "last", "x": 62.55, "y": 41.6, "w": 1.2, "h": 2, "company": "G15", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+
+    /* ===== ЖЁЛТЫЕ СЛЕВА ===== */
+
+    { "type": "yellow", "position": "bottom", "order": "first", "x": 36.2, "y": 45.5, "w": 1.2, "h": 2, "r": 65, "company": "G16", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "yellow", "position": "bottom", "order": "none", "x": 36.68, "y": 47.4, "w": 1.2, "h": 2, "r": 65, "company": "G17", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "yellow", "position": "bottom", "order": "none", "x": 37.2, "y": 49.4, "w": 1.2, "h": 2, "r": 65, "company": "G18", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "yellow", "position": "bottom", "order": "last", "x": 37.68, "y": 51.3, "w": 1.2, "h": 2, "r": 65, "company": "G19", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+
+    /* ===== ГОЛУБЫЕ В ЦЕНТРЕ ===== */
+
+    { "type": "blue", "position": "bottom", "order": "first", "x": 45, "y": 46.5, "w": 3, "h": 4.0, "company": "D1", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "blue", "position": "bottom", "order": "none", "x": 48, "y": 46.5, "w": 3, "h": 4.0, "company": "D2", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "blue", "position": "bottom", "order": "none", "x": 51, "y": 46.5, "w": 3, "h": 4.0, "company": "D3", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "blue", "position": "bottom", "order": "last", "x": 54, "y": 46.5, "w": 3, "h": 4.0, "company": "D4", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+
+    { "type": "blue", "position": "top", "order": "first", "x": 45, "y": 50.4, "w": 3, "h": 4.0, "company": "D5", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "blue", "position": "top", "order": "none", "x": 48, "y": 50.4, "w": 3, "h": 4.0, "company": "D6", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "blue", "position": "top", "order": "none", "x": 51, "y": 50.4, "w": 3, "h": 4.0, "company": "D7", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "blue", "position": "top", "order": "last", "x": 54, "y": 50.4, "w": 3, "h": 4.0, "company": "D8", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+
+    /* ===== СЕРЕБРЯНЫЕ СПРАВА ===== */
+
+    { "type": "silver", "position": "bottom", "order": "first", "x": 63.8, "y": 52.9, "w": 1.2, "h": 2, "company": "S1", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "silver", "position": "bottom", "order": "none", "x": 64.95, "y": 52.9, "w": 1.2, "h": 2, "company": "S2", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "silver", "position": "bottom", "order": "none", "x": 66.1, "y": 52.9, "w": 1.2, "h": 2, "company": "S3", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "silver", "position": "bottom", "order": "none", "x": 67.25, "y": 52.9, "w": 1.2, "h": 2, "company": "S4", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "silver", "position": "bottom", "order": "last", "x": 68.4, "y": 52.9, "w": 1.2, "h": 2, "company": "S5", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+
+  ]
+};

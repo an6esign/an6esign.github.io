@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    background: #000;
+}
+
+.hall-container {
+    position: relative;
+    width: 100%;
+}
+
+.hall-map {
+    width: 100%;
+    display: block;
+}
+
+#stands-layer {
+    position: absolute;
+    inset: 0;
+}
+
+.stand {
+    position: absolute;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+}
+
+.stand.yellow {
+    border: 1px dashed rgb(255 234 0 / 50%);
+}
+
+.stand.yellow:hover {
+    background-color: rgb(255 234 0 / 25%);
+}
+
+.stand.yellow.top {
+    border-top: 2px solid rgb(255 234 0 / 50%);
+}
+
+.stand.yellow.bottom {
+    border-bottom: 2px solid rgb(255 234 0 / 50%);
+}
+
+.stand.silver {
+    border: 1px dashed rgb(255 255 255 / 50%);
+}
+
+.stand.silver:hover {
+    background-color: rgb(255 255 255 / 25%);
+}
+
+.stand.silver.top {
+    border-top: 2px solid rgb(255 255 255);
+}
+
+.stand.silver.bottom {
+    border-bottom: 2px solid rgb(255 255 255);
+}
+
+.stand.blue {
+    border: 1px dashed rgb(4 203 195 / 50%);
+}
+
+.stand.blue:hover {
+    background-color: rgb(4 203 195 / 25%);
+}
+
+.stand.blue.top {
+    border-top: 1px solid rgb(4 203 195 / 50%);
+
+}
+.stand.blue.bottom {
+    border-bottom: 1px solid rgb(4 203 195 / 50%);
+}
+.stand.blue.bottom:nth-child(n) {
+    border-right: 1px solid rgb(4 203 195 / 50%);
+    border-left: 1px solid rgb(4 203 195 / 50%);
+}
+.stand.blue.bottom:nth-child(4n) {
+    border-left: 1px dashed rgb(4 203 195 / 50%);
+}
+.stand.blue.bottom.last {
+    border-right: 1px dashed rgb(4 203 195 / 50%);
+}
+
+.stand.blue.top:nth-child(n) {
+    border-right: 1px solid rgb(4 203 195 / 50%);
+    border-left: 1px solid rgb(4 203 195 / 50%);
+}
+.stand.blue.top:nth-child(4n) {
+    border-left: 1px dashed rgb(4 203 195 / 50%);
+}
+.stand.blue.top.last {
+    border-right: 1px dashed rgb(4 203 195 / 50%);
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: #111;
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.stand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.5vw;
+    font-weight: 400;
+    color: rgb(255 255 255 / 30%);
+    overflow: hidden;
+}
+
+.stand.free {
+    color: white;
+}
+
+.info-card {
+    position: fixed;
+    width: 260px;
+    background: #0f0f0f;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    color: white;
+    z-index: 9999;
+    animation: fadeIn 0.2s ease;
+    font-family: "Onest", sans-serif;
+}
+
+.card-logo {
+    width: 70px;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.card-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-title {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    width: 24px;
+    height: 24px;
+    background-color: #03cac3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-description {
+    font-size: 13px;
+    color: #bbb;
+    margin-bottom: 10px;
+}
+
+.card-info {
+    font-size: 11px;
+    color: #777;
+}
+
+.card-free {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
