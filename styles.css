@@ -205,6 +205,16 @@ body {
     }
     #stands-layer {
         width: 219%;
+        height: 100%;
+        position: absolute;
+        left: -59.5%;
+        top: 11%;
+    }
+}
+
+@media screen and (orientation: landscape) {    
+    #stands-layer {
+        width: 219%;
         height: 220%;
         position: absolute;
         left: -59%;
