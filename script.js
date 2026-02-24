@@ -2,6 +2,11 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     const container = document.getElementById("stands-layer");
+    
+    // Определяем touch-устройство ДО добавления обработчиков
+    const isTouchDevice = ('ontouchstart' in window) || 
+                         (navigator.maxTouchPoints > 0) || 
+                         (navigator.msMaxTouchPoints > 0);
 
     standsData.stands.forEach(stand => {
 
@@ -20,21 +25,38 @@ document.addEventListener("DOMContentLoaded", function () {
 
         div.textContent = stand.company;
 
-        div.addEventListener('mouseenter', () => {
-            toggleCard(div, stand);
-        });
+        if (isTouchDevice) {
+            // Для мобильных устройств и iPhone - только клик
+            div.addEventListener('click', (e) => {
+                e.stopPropagation();
+                e.preventDefault();
+                toggleCard(div, stand);
+            });
+        } else {
+            // Для десктопа - только наведение
+            div.addEventListener('mouseenter', () => {
+                toggleCard(div, stand);
+            });
 
-        div.addEventListener('mouseleave', () => {
-            removeCard();
-        });
+            div.addEventListener('mouseleave', () => {
+                removeCard();
+            });
+        }
 
         container.appendChild(div);
     });
+
+    // Закрываем карточку при клике вне её на мобильных устройствах
+    if (isTouchDevice) {
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.info-card') && !e.target.closest('.stand')) {
+                removeCard();
+            }
+        });
+    }
 });
 
-
 function toggleCard(target, stand) {
-
     const existing = document.querySelector(".info-card");
     if (existing) {
         existing.remove();
@@ -58,18 +80,43 @@ function toggleCard(target, stand) {
 
     document.body.appendChild(card);
 
-    const rect = target.getBoundingClientRect();
+    // Даем время браузеру отрендерить карточку перед расчетом позиции
+    setTimeout(() => {
+        const rect = target.getBoundingClientRect();
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+        
+        const offset = 10;
 
-    const cardWidth = 260;
-    const offset = 10;
+        // Рассчитываем позицию
+        let left = rect.right - 10 + scrollLeft + offset;
+        let top = rect.top + 25 + scrollTop;
 
-    card.style.left = (rect.right - 10) + offset + "px";
-    card.style.top = (rect.top + 25) + "px";
+        // Проверяем, не выходит ли карточка за правый край экрана
+        const cardRect = card.getBoundingClientRect();
+        const viewportWidth = window.innerWidth;
+        
+        if (left + cardRect.width > viewportWidth + scrollLeft) {
+            left = viewportWidth - cardRect.width - offset + scrollLeft;
+        }
 
+        // Проверяем, не выходит ли за нижний край
+        const viewportHeight = window.innerHeight;
+        if (top + cardRect.height > viewportHeight + scrollTop) {
+            top = rect.top - cardRect.height - offset + scrollTop;
+        }
+
+        card.style.left = left + "px";
+        card.style.top = top + "px";
+        
+        // Добавляем класс для анимации
+        card.classList.add('visible');
+    }, 10);
 }
-
 
 function removeCard() {
     const card = document.querySelector(".info-card");
-    if (card) card.remove();
+    if (card) {
+        card.remove();
+    }
 }
