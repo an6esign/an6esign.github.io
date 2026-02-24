@@ -215,7 +215,7 @@ body {
     }
 }
 
-@media screen and (orientation: landscape) and (max-width: 991px) {    
+@media screen and (orientation: landscape) and (max-width: 991px) {
     #stands-layer {
         width: 219%;
         height: 220%;
@@ -223,4 +223,8 @@ body {
         left: -59%;
         top: -49%;
     }
+    .stand.yellow.top {
+        top: 42.7% !important;
+    }
+
 }
