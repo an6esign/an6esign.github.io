@@ -190,6 +190,9 @@ body {
 }
 
 @media screen and (max-width: 991px) {
+    .stand {
+        font-size: 1vw;
+    }
     .hall-container {
         margin-top: -90px;
         margin-bottom: -80px;
