@@ -6,6 +6,8 @@ body {
 .hall-container {
     position: relative;
     width: 100%;
+    margin-top: -148px;
+    margin-bottom: -130px;
 }
 
 .hall-map {
@@ -185,4 +187,11 @@ body {
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(5px); }
     to { opacity: 1; transform: translateY(0); }
+}
+
+@media screen and (max-width: 768px) {
+    .hall-container {
+        margin-top: -90px;
+        margin-bottom: -80px;
+    }
 }
