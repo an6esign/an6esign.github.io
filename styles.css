@@ -189,9 +189,25 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
     .hall-container {
         margin-top: -90px;
         margin-bottom: -80px;
+        height: 540px;
+        overflow: hidden;
+    }
+    .hall-map {
+        width: 220%;
+        height: 220%;
+        position: absolute;
+        left: -60%;
+        top: -49%;
+    }
+    #stands-layer {
+        width: 219%;
+        height: 220%;
+        position: absolute;
+        left: -59%;
+        top: -49%;
     }
 }
