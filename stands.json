@@ -28,8 +28,8 @@ const standsData = {
 
     /* ===== ГОЛУБЫЕ В ЦЕНТРЕ ===== */
 
-    { "type": "blue", "position": "bottom", "order": "first", "x": 45, "y": 46.5, "w": 3, "h": 4.0, "company": "D1", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
-    { "type": "blue", "position": "bottom", "order": "none", "x": 48, "y": 46.5, "w": 3, "h": 4.0, "company": "D2", "logo": "./logos/logo-salebot.svg", "description": "конструктор чат-ботов", "info": "salebot.pro" },
+    { "type": "blue", "position": "bottom", "order": "first", "x": 45, "y": 46.5, "w": 3, "h": 4.0, "company": "D1", "logo": "./logos/logo-teleport.svg", "description": "Сервис автопостинга в соц.сети", "info": "teleport.ru" },
+    { "type": "blue", "position": "bottom", "order": "none", "x": 48, "y": 46.5, "w": 3, "h": 4.0, "company": "D2", "logo": "./logos/logo-salebot.svg", "description": "Конструктор чат-ботов", "info": "salebot.pro" },
     { "type": "blue", "position": "bottom", "order": "none", "x": 51, "y": 46.5, "w": 3, "h": 4.0, "company": "D3", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
     { "type": "blue", "position": "bottom", "order": "last", "x": 54, "y": 46.5, "w": 3, "h": 4.0, "company": "D4", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
 
