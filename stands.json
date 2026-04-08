@@ -40,7 +40,8 @@ const standsData = {
 
     /* ===== СЕРЕБРЯНЫЕ СПРАВА ===== */
 
-    { "type": "silver", "position": "bottom", "order": "first", "x": 63.8, "y": 52.9, "w": 1.2, "h": 2, "company": "S1", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
+    { "type": "silver", "position": "bottom", "order": "first", "x": 63.8, "y": 52.9, "w": 1.2, "h": 2, "company": "S1", "logo": "./logos/logo-inside.svg", "description": "Компания оказывает услуги по внедрению и продаже CRM Битрикс24, автоматизации бизнес-процессов,
+интеграции с 1С, телефонией и другими системами", "info": "www.inside.ru" },
     { "type": "silver", "position": "bottom", "order": "none", "x": 64.95, "y": 52.9, "w": 1.2, "h": 2, "company": "S2", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
     { "type": "silver", "position": "bottom", "order": "none", "x": 66.1, "y": 52.9, "w": 1.2, "h": 2, "company": "S3", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
     { "type": "silver", "position": "bottom", "order": "none", "x": 67.25, "y": 52.9, "w": 1.2, "h": 2, "company": "S4", "logo": "./logos/logo-clickise.svg", "description": "Основатель Listing.Help, Jets.Capital, Blockchain Life", "info": "clickise.org" },
