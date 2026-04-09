@@ -21,10 +21,10 @@ const standsData = {
 
     /* ===== ЖЁЛТЫЕ СЛЕВА ===== */
 
-    { "type": "yellow", "position": "bottom", "order": "first", "x": 36.2, "y": 45.5, "w": 1.2, "h": 2, "r": 65, "company": "G16", "logo": "./logos/logo-none.svg", "description": "Временно недоступно для бронирования", "info": "" },
+    /*{ "type": "yellow", "position": "bottom", "order": "first", "x": 36.2, "y": 45.5, "w": 1.2, "h": 2, "r": 65, "company": "G16", "logo": "./logos/logo-none.svg", "description": "Временно недоступно для бронирования", "info": "" },
     { "type": "yellow", "position": "bottom", "order": "none", "x": 36.68, "y": 47.4, "w": 1.2, "h": 2, "r": 65, "company": "G17", "logo": "./logos/logo-none.svg", "description": "Временно недоступно для бронирования", "info": "" },
     { "type": "yellow", "position": "bottom", "order": "none", "x": 37.2, "y": 49.4, "w": 1.2, "h": 2, "r": 65, "company": "G18", "logo": "./logos/logo-none.svg", "description": "Временно недоступно для бронирования", "info": "" },
-    { "type": "yellow", "position": "bottom", "order": "last", "x": 37.68, "y": 51.3, "w": 1.2, "h": 2, "r": 65, "company": "G19", "logo": "./logos/logo-none.svg", "description": "Временно недоступно для бронирования", "info": "" },
+    { "type": "yellow", "position": "bottom", "order": "last", "x": 37.68, "y": 51.3, "w": 1.2, "h": 2, "r": 65, "company": "G19", "logo": "./logos/logo-none.svg", "description": "Временно недоступно для бронирования", "info": "" }, */
 
     /* ===== ГОЛУБЫЕ В ЦЕНТРЕ ===== */
 
