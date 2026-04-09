@@ -35,7 +35,7 @@ const standsData = {
     { "type": "blue", "position": "bottom", "order": "last", "x": 54, "y": 46.5, "w": 3, "h": 4.0, "company": "K1", "logo": "./logos/logo-clickise.svg", "description": "Сервис пополнения рекламных кабинетов", "info": "clickise.org" },
 
     { "type": "blue", "position": "top", "order": "first", "x": 45, "y": 50.4, "w": 3, "h": 4.0, "company": "D3", "logo": "./logos/logo-none.svg", "description": "ЗАБРОНИРОВАНО", "info": "" },
-    { "type": "blue", "position": "top", "order": "none", "x": 48, "y": 50.4, "w": 3, "h": 4.0, "company": "D4", "logo": "", "description": "", "info": "" },
+    { "type": "blue", "position": "top", "order": "none", "x": 48, "y": 50.4, "w": 3, "h": 4.0, "company": "D4", "logo": "./logos/logo-oohdesk.svg", "description": "Цифровая платформа для запуска наружной рекламы на современных медиафасадах и уличных экранах", "info": "oohdesk.global" },
     { "type": "blue", "position": "top", "order": "none", "x": 51, "y": 50.4, "w": 3, "h": 4.0, "company": "D6", "logo": "./logos/logo-none.svg", "description": "ЗАБРОНИРОВАНО", "info": "" },
     { "type": "blue", "position": "top", "order": "last", "x": 54, "y": 50.4, "w": 3, "h": 4.0, "company": "K2", "logo": "", "description": "", "info": "" },
 
