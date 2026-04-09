@@ -42,7 +42,7 @@ const standsData = {
 
     { "type": "silver", "position": "bottom", "order": "first", "x": 63.8, "y": 52.9, "w": 1.2, "h": 2, "company": "S1", "logo": "./logos/logo-inside.svg", "description": "Компания оказывает услуги по внедрению и продаже CRM Битрикс24, автоматизации бизнес-процессов", "info": "www.inside.ru" },
     { "type": "silver", "position": "bottom", "order": "none", "x": 64.95, "y": 52.9, "w": 1.2, "h": 2, "company": "S2", "logo": "", "description": "", "info": "" },
-    { "type": "silver", "position": "bottom", "order": "none", "x": 66.1, "y": 52.9, "w": 1.2, "h": 2, "company": "S3",  "logo": "", "description": "", "info": "" },
+    { "type": "silver", "position": "bottom", "order": "none", "x": 66.1, "y": 52.9, "w": 1.2, "h": 2, "company": "S3",  "logo": "./logos/logo-none.svg", "description": "ЗАБРОНИРОВАНО", "info": ""  },
     { "type": "silver", "position": "bottom", "order": "none", "x": 67.25, "y": 52.9, "w": 1.2, "h": 2, "company": "S4", "logo": "", "description": "", "info": "" },
     { "type": "silver", "position": "bottom", "order": "last", "x": 68.4, "y": 52.9, "w": 1.2, "h": 2, "company": "S5", "logo": "", "description": "", "info": "" }
 
